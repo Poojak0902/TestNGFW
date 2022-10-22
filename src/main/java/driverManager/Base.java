@@ -79,8 +79,11 @@ public void jshighclick(WebElement ele) throws InterruptedException {
 	Thread.sleep(3000);
   }	
 	public void teardown() {
+		System.out.println("I am closing the browser");
 		driver.quit();
 		// driver.close();
 	}
 
+	
+	
 }
